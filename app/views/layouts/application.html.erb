@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>PerceiveTheWorld</title>
+    <title>Portfolio</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -11,6 +11,7 @@
   </head>
 
   <body>
+    <%= javascript_pack_tag 'hello_react' %>
     <%= render 'shared/header' %>
     <%= yield %>
   </body>
