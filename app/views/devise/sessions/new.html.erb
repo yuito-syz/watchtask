@@ -27,5 +27,10 @@
     </div>
   <% end %>
 
+  <div class="btn btn-default	btn-block">
+    <%= link_to 'かんたんログイン', users_guest_sign_in_path, method: :post %>
+  </div>
+  
+ 
   <%= render 'devise/shared/links' %>
 </div>
